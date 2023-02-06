@@ -11,37 +11,11 @@ namespace Primenumber_Evennumbers
     {
         static void Main(string[] args)
         {
-
-            //int n, i, m = 0, number = 0;
-            //Console.Write("Enter the Number to check Prime: ");
-            //n = int.Parse(Console.ReadLine()); 
-            //m = n / 2;
-            //for (i = 2; i <= m ; i++) 
-            //{
-            //    if (n %i ==0)
-            //    {
-            //        Console.Write("Number is even number.");
-            //        number = 1;
-            //        break;
-            //    }
-            //    else 
-            //    {
-            //        Console.WriteLine("odd number");
-            //        number = 1;
-            //        break;
-            //    }
-
-            //}
-            //if (number == 0)
-            //{
-            //    Console.Write("Number is Prime.");
-            //}
-            Console.Write("------Enter any  Number--------:\n");
-
+            Console.Write("Enter Any Number:\n");
             int nom = int.Parse(Console.ReadLine());
-            bool value = true;
-            // Console.WriteLine(nom / 2);
-            for (int i = 2; i < nom / 2; i++)
+            bool value = true;int i;
+
+            for (i = 2; i <= nom / 2; i++)
             {
                 if (nom % i == 0)
                 {
@@ -52,17 +26,26 @@ namespace Primenumber_Evennumbers
             }
             if (value)
             {
-                Console.Write("Number is Prime");
+                Console.Write("{0} is Prime  Number  ",nom);
+                if (nom % i != 0)
+                {
+                    Console.Write("And odd Number");
+                }
+                else if (nom % i == 0)
+                {
+                    Console.Write("And is even Number");
+                }                               
+            }
+            else if (nom % 2 == 0)
+            {
+                Console.Write("{0} is even number", nom);
+
             }
             else
             {
-                Console.Write("Number is not Prime");
+                Console.WriteLine("{0} is odd Number", nom);
             }
             Console.ReadKey();
-           
-
-         
-
         }
     }
 }
