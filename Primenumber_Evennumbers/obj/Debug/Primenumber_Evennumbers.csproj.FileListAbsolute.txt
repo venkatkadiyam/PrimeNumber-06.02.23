@@ -1,0 +1,8 @@
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\bin\Debug\Primenumber_Evennumbers.exe.config
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\bin\Debug\Primenumber_Evennumbers.exe
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\bin\Debug\Primenumber_Evennumbers.pdb
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\obj\Debug\Primenumber_Evennumbers.csproj.AssemblyReference.cache
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\obj\Debug\Primenumber_Evennumbers.csproj.SuggestedBindingRedirects.cache
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\obj\Debug\Primenumber_Evennumbers.csproj.CoreCompileInputs.cache
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\obj\Debug\Primenumber_Evennumbers.exe
+D:\practies\Primenumber_Evennumbers\Primenumber_Evennumbers\obj\Debug\Primenumber_Evennumbers.pdb
